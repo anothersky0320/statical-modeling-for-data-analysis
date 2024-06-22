@@ -1,0 +1,23 @@
+[project]
+name = "statical-modeling-for-data-analysis"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "anothersky0320", email = "68469220+anothersky0320@users.noreply.github.com" }
+]
+dependencies = [
+    "ipykernel>=6.29.4",
+    "japanize-matplotlib>=1.1.3",
+    "numpy>=2.0.0",
+    "pandas>=2.2.2",
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.2",
+    "scipy>=1.13.1",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
